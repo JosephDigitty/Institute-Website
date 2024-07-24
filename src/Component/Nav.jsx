@@ -1,10 +1,13 @@
-import React, { useState } from 'react';
+import React, { useState , useEffect } from 'react';
 import { IoMdArrowDropdown } from "react-icons/io";
 import { FaWhatsapp } from "react-icons/fa6";
 import { FaPhone } from "react-icons/fa6";
 import { Link } from 'react-router-dom';
+import scrollLock from 'scroll-lock';
 
 import LOGO from '../assets/images/LOGO.png';
+
+
 
 
 const Navbar = () => {
@@ -39,12 +42,42 @@ const Navbar = () => {
   const handleservicesMouseLeave = () => {
     if (!isMobileMenuOpen) setServicesOpen(false);
   };
+  // const handleScroll = () => {
+  //   useEffect(() => {
+  //     if (isMobileMenuOpen) {
+  //       scrollLock.disablePageScroll();
+  //     } else {
+  //       scrollLock.enablePageScroll();
+  //     }
+  
+  //     // Clean up the scroll lock when the component unmounts
+  //     return () => {
+  //       scrollLock.enablePageScroll();
+  //     };
+  //   }, [isMobileMenuOpen]);
+  // }
+ 
 
   const toggleMobileMenu = () => {
-    setIsMobileMenuOpen(!isMobileMenuOpen);
-    if (isMobileMenuOpen) setServiceOpen(false); // Close submenu when closing mobile menu
-    if (isMobileMenuOpen) setAboutusOpen(false); // Close submenu when closing mobile menu
-    if (isMobileMenuOpen) setNewsOpen(false); // Close submenu when closing mobile menu
+    if (isMobileMenuOpen) {
+      setIsMobileMenuOpen(false)
+      setServiceOpen(false)
+      setAboutusOpen(false)
+      setNewsOpen(false)
+      setServicesOpen(false)
+      scrollLock.enablePageScroll()
+    } else {
+      setIsMobileMenuOpen(true);
+      setServiceOpen(false)
+      setAboutusOpen(false)
+      setNewsOpen(false)
+      setServicesOpen(false)
+      scrollLock.disablePageScroll()
+    }
+    // setIsMobileMenuOpen(!isMobileMenuOpen);
+    // if (isMobileMenuOpen) setServiceOpen(false); // Close submenu when closing mobile menu
+    // if (isMobileMenuOpen) setAboutusOpen(false); // Close submenu when closing mobile menu
+    // if (isMobileMenuOpen) setNewsOpen(false); // Close submenu when closing mobile menu
   };
 
   const servicetoggleSubmenu = () => {
@@ -61,8 +94,8 @@ const Navbar = () => {
   };
   //setAboutusOpen(!aboutusOpen);
   //setNewsOpen(!newsOpen);
-
-
+  
+  
   return ( 
     <>
   
@@ -145,6 +178,7 @@ const Navbar = () => {
                 className="absolute bg-slate-500  left-0 mt-2 w-48  shadow-lg z-50"
                 onMouseEnter={servicehandleMouseEnter}
                 onMouseLeave={servicehandleMouseLeave}
+                
               >
                 <div className='absolute left-0 right-0 -top-6 hover:cursor-pointer h-6 bg-transparent'/>
                 <ul>
@@ -230,24 +264,7 @@ const Navbar = () => {
           </button>
         </div>
         <ul className="flex flex-col items-center space-y-4 mt-10">
-          <li className="text-white text-lg relative">
-          <div className='flex flex-row gap-1 items-center cursor-pointer'
-          onClick={servicetoggleSubmenu}>
-              <button className="focus:outline-none">
-                Membership          
-              </button>
-              <IoMdArrowDropdown className='-top-5' />   
-            </div>
-            
-            {serviceOpen && (
-              <ul className="mt-2 w-full bg-gray-700 shadow-lg">
-                  <li className="px-4 py-2 font-ubuntu text-white hover:cursor-pointer hover:bg-slate-700"> <Link onClick={toggleMobileMenu} to="/become-a-member">Become a Member</Link></li>
-                  <li className="px-4 py-2 font-ubuntu text-white hover:cursor-pointer hover:bg-slate-700"> <Link onClick={toggleMobileMenu} to="/Membership-routes">Membership Categories</Link></li>
-                  <li className="px-4 py-2 font-ubuntu text-white hover:cursor-pointer hover:bg-slate-700"> <Link onClick={toggleMobileMenu} to="/member-upgrade">Membership Upgardes</Link></li>
-              </ul>
-            )}
-          </li>
-          <li className="text-white text-lg relative">
+        <li className="text-white text-lg relative">
           <div className='flex flex-row gap-1 items-center cursor-pointer'
           onClick={aboutustoggleSubmenu}>
               <button className="focus:outline-none">
@@ -267,9 +284,27 @@ const Navbar = () => {
           </li>
           <li className="text-white text-lg relative">
           <div className='flex flex-row gap-1 items-center cursor-pointer'
+          onClick={servicetoggleSubmenu}>
+              <button className="focus:outline-none">
+                Membership          
+              </button>
+              <IoMdArrowDropdown className='-top-5' />   
+            </div>
+            
+            {serviceOpen && (
+              <ul className="mt-2 w-full bg-gray-700 shadow-lg">
+                  <li className="px-4 py-2 font-ubuntu text-white hover:cursor-pointer hover:bg-slate-700"> <Link onClick={toggleMobileMenu} to="/become-a-member">Become a Member</Link></li>
+                  <li className="px-4 py-2 font-ubuntu text-white hover:cursor-pointer hover:bg-slate-700"> <Link onClick={toggleMobileMenu} to="/Membership-routes">Membership Categories</Link></li>
+                  <li className="px-4 py-2 font-ubuntu text-white hover:cursor-pointer hover:bg-slate-700"> <Link onClick={toggleMobileMenu} to="/member-upgrade">Membership Upgardes</Link></li>
+              </ul>
+            )}
+          </li>
+          <li className=" text-white text-lg">  <Link  onClick={toggleMobileMenu} to="/Training">Training & Certifications</Link> </li>
+          <li className="text-white text-lg relative">
+          <div className='flex flex-row gap-1 items-center cursor-pointer'
           onClick={newstoggleSubmenu}>
               <button className="focus:outline-none">
-                News & Information          
+                News & Article          
               </button>
               <IoMdArrowDropdown className='-top-5' />   
             </div>
@@ -282,7 +317,6 @@ const Navbar = () => {
               </ul>
             )}
           </li>
-          <li className=" text-white text-lg">  <Link to="/Training">Training & Certifications</Link> </li> <br />
           <li className="text-white text-lg relative">
           <div className='flex flex-row gap-1 items-center cursor-pointer'
           onClick={servicestoggleSubmenu}>
@@ -296,11 +330,10 @@ const Navbar = () => {
               <ul className="mt-2 w-full bg-gray-700 shadow-lg">
                   <li className="px-4 py-2 font-ubuntu text-white hover:cursor-pointer hover:bg-slate-700"> <Link onClick={toggleMobileMenu} to="/consultancy">Consultancy</Link></li>
                   <li className="px-4 py-2 font-ubuntu text-white hover:cursor-pointer hover:bg-slate-700"> <Link onClick={toggleMobileMenu} to="/research">Research</Link></li>
-                  <li className="px-4 py-2 font-ubuntu text-white hover:cursor-pointer hover:bg-slate-700"> <Link onClick={toggleMobileMenu} to="/updates">Event Updates</Link></li>
               </ul>
             )}
           </li>
-          <li className="text-white text-lg">  <Link to="/gallery">Gallery</Link> </li>
+          <li className="text-white text-lg">  <Link  onClick={toggleMobileMenu} to="/gallery">Gallery</Link> </li>
           {/* <li className="text-white text-lg">  <Link to="">Contact Us</Link> </li> */}
         </ul>
       </div>
