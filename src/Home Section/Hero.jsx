@@ -1,6 +1,6 @@
 import React from 'react'
 import Typewriter from 'typewriter-effect';
-
+import { Link } from 'react-router-dom';
 
 const Hero = () => {
   return (
@@ -18,7 +18,7 @@ const Hero = () => {
             Building a world of competent multi-faceted publi diplomatic leaders & managers
           </p>
           <div className='pt-24'>
-          <a className="mt-8 px-6 py-4 font-firma bg-slate-600 text-white font-bold rounded" href="/whoweare"> Learn More...</a>
+          <Link className="mt-8 px-6 py-4 font-firma bg-slate-600 text-white font-bold rounded" to="/whoweare"> Learn More...</Link>
           </div>
         
         </div>

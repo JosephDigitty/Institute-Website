@@ -1,5 +1,5 @@
 import React from 'react'
-
+import { Link } from 'react-router-dom';
 const Become = () => {
   return (
     <div className='flex flex-col md:px-[300px] w-fit items-center gap-1'>
@@ -16,11 +16,11 @@ const Become = () => {
           </p>
         </div>
         <div className='grid md:gap-0 pb-5 pt-2 md:px-4 gap-3 grid-cols-1 md:grid-cols-4'>
-          <a className='hover:underline' href="">*Senior Membership</a><a className='hover:underline' href="">*Full Membership</a><a className='hover:underline' href="">*Associate Membership</a><a className='md:pl-3 hover:underline' href="">*Graduate Membership</a>
+          <Link className='hover:underline' to="">*Senior Membership</Link><Link className='hover:underline' to="">*Full Membership</Link><Link className='hover:underline' href="">*Associate Membership</Link><Link className='md:pl-3 hover:underline' href="">*Graduate Membership</Link>
         </div>
-        <a className='px-12 py-2 rounded-md bg-slate-700 text-xl hover:bg-slate-500 text-white hover:text-gradient font-semibold font-sans' href="/become-a-member">
+        <Link className='px-12 py-2 rounded-md bg-slate-700 text-xl hover:bg-slate-500 text-white hover:text-gradient font-semibold font-sans' to="/become-a-member">
           Join Us
-        </a>
+        </Link>
         {/* <button className='px-12 py-2 rounded-md bg-slate-700 text-xl hover:bg-slate-500 text-white hover:text-gradient font-semibold font-sans'>
             Join Us
         </button> */}

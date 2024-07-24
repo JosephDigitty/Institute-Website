@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import { IoMdArrowDropdown } from "react-icons/io";
 import { FaWhatsapp } from "react-icons/fa6";
 import { FaPhone } from "react-icons/fa6";
+import { Link } from 'react-router-dom';
 
 import LOGO from '../assets/images/LOGO.png';
 
@@ -64,6 +65,7 @@ const Navbar = () => {
 
   return ( 
     <>
+  
     <div className='bg-slate-500 flex flex-row items-center justify-between'>
       <div className='flex flex-row gap-2 items-center'>
       <div className='flex flex-row px-3 py-4 gap-3'>
@@ -80,13 +82,13 @@ const Navbar = () => {
       </div>
       </div> 
       <div>
-        <a className='hidden md:block text-white font-ptserif pr-10 text-xl' href="">Contact us</a>
+        <Link className='hidden md:block text-white font-ptserif pr-10 text-xl' href="">Contact us</Link>
       </div>
       </div>
     <nav className="bg-white md:pl-24 pr-7 md:pr-5 h-36  relative z-50 xl:px-5">
       
       <div className={`container mx-auto flex lg:justify-start md:justify-start md:gap-64  items-center justify-between`}>
-        <a href="/"><img src={LOGO}alt="" className="w-60  h-32" /></a>
+        <Link to="/"><img src={LOGO}alt="" className="w-60  h-32" /></Link>
         
         <div className="md:hidden">
           <button 
@@ -116,10 +118,10 @@ const Navbar = () => {
               >
                 <div className='absolute left-0 right-0 -top-6 hover:cursor-pointer h-6 bg-transparent'/>
                 <ul>
-                  <li className="px-4 py-2 font-ubuntu text-white hover:cursor-pointer hover:bg-slate-700"> <a href="/whoweare">Who we are</a></li>
-                  <li className="px-4 py-2 font-ubuntu text-white hover:cursor-pointer hover:bg-slate-700"> <a href="/our-people">Our People</a></li>
-                  <li className="px-4 py-2 font-ubuntu text-white hover:cursor-pointer hover:bg-slate-700"> <a href="/code-of-conduct">Code of Conduct</a></li>
-                  <li className="px-4 py-2 font-ubuntu text-white hover:cursor-pointer hover:bg-slate-700"> <a href="/our-offices">State Branches</a></li>
+                  <li className="px-4 py-2 font-ubuntu text-white hover:cursor-pointer hover:bg-slate-700"> <Link to="/whoweare">Who we are</Link></li>
+                  <li className="px-4 py-2 font-ubuntu text-white hover:cursor-pointer hover:bg-slate-700"> <Link to="/our-people">Our People</Link></li>
+                  <li className="px-4 py-2 font-ubuntu text-white hover:cursor-pointer hover:bg-slate-700"> <Link to="/code-of-conduct">Code of Conduct</Link></li>
+                  <li className="px-4 py-2 font-ubuntu text-white hover:cursor-pointer hover:bg-slate-700"> <Link to="/our-offices">State Branches</Link></li>
                 </ul>
               </div>
             )}
@@ -146,15 +148,15 @@ const Navbar = () => {
               >
                 <div className='absolute left-0 right-0 -top-6 hover:cursor-pointer h-6 bg-transparent'/>
                 <ul>
-                  <li className="px-4 py-2 font-ubuntu text-white hover:cursor-pointer hover:bg-slate-700"> <a href="/become-a-member">Become a Member</a></li>
-                  <li className="px-4 py-2 font-ubuntu text-white hover:cursor-pointer hover:bg-slate-700"> <a href="/Membership-routes">Membership Categories</a></li>
-                  <li className="px-4 py-2 font-ubuntu text-white hover:cursor-pointer hover:bg-slate-700"> <a href="/member-upgrade">Membership Upgardes</a></li>
+                  <li className="px-4 py-2 font-ubuntu text-white hover:cursor-pointer hover:bg-slate-700"> <Link to="/become-a-member">Become a Member</Link></li>
+                  <li className="px-4 py-2 font-ubuntu text-white hover:cursor-pointer hover:bg-slate-700"> <Link to="/Membership-routes">Membership Categories</Link></li>
+                  <li className="px-4 py-2 font-ubuntu text-white hover:cursor-pointer hover:bg-slate-700"> <Link to="/member-upgrade">Membership Upgardes</Link></li>
                   
                 </ul>
               </div>
             )}
           </li>
-          <li className=" focus:outline-none text-[15px] text-slate-600 font-semibold font-Merriweather">  <a href="/Training">Training & Certifications</a> </li> <br />
+          <li className=" focus:outline-none text-[15px] text-slate-600 font-semibold font-Merriweather">  <Link to="/Training">Training & Certifications</Link> </li> <br />
 
           <li 
             className="text-white relative"
@@ -175,9 +177,9 @@ const Navbar = () => {
               >
                 <div className='absolute left-0 right-0 -top-6 hover:cursor-pointer h-6 bg-transparent'/>
                 <ul>
-                  <li className="px-4 py-2 font-ubuntu text-white hover:cursor-pointer hover:bg-slate-700"> <a href="/news">News & Updates</a></li>
-                  <li className="px-4 py-2 font-ubuntu text-white hover:cursor-pointer hover:bg-slate-700"> <a href="/Events">Events & Conferences</a></li>
-                  <li className="px-4 py-2 font-ubuntu text-white hover:cursor-pointer hover:bg-slate-700"> <a href="/Articles">Articles</a></li>
+                  <li className="px-4 py-2 font-ubuntu text-white hover:cursor-pointer hover:bg-slate-700"> <Link to="/news">News & Updates</Link></li>
+                  <li className="px-4 py-2 font-ubuntu text-white hover:cursor-pointer hover:bg-slate-700"> <Link to="/Events">Events & Conferences</Link></li>
+                  <li className="px-4 py-2 font-ubuntu text-white hover:cursor-pointer hover:bg-slate-700"> <Link to="/Articles">Articles</Link></li>
                   
                 </ul>
               </div>
@@ -202,14 +204,14 @@ const Navbar = () => {
               >
                 <div className='absolute left-0 right-0 -top-6 hover:cursor-pointer h-6 bg-transparent'/>
                 <ul>
-                  <li className="px-4 py-2 font-ubuntu text-white hover:cursor-pointer hover:bg-slate-700"> <a href="/consultancy">Consultancy</a></li>
-                  <li className="px-4 py-2 font-ubuntu text-white hover:cursor-pointer hover:bg-slate-700"> <a href="/research">Research</a></li>
+                  <li className="px-4 py-2 font-ubuntu text-white hover:cursor-pointer hover:bg-slate-700"> <Link to="/consultancy">Consultancy</Link></li>
+                  <li className="px-4 py-2 font-ubuntu text-white hover:cursor-pointer hover:bg-slate-700"> <Link to="/research">Research</Link></li>
                   
                 </ul>
               </div>
             )}
           </li>
-          <li className=" focus:outline-none text-[15px] text-slate-600 font-semibold font-Merriweather">  <a href="/Gallery">Gallery</a> </li>
+          <li className=" focus:outline-none text-[15px] text-slate-600 font-semibold font-Merriweather">  <Link to="/Gallery">Gallery</Link> </li>
         </ul>
       </div>
 
@@ -240,9 +242,9 @@ const Navbar = () => {
             
             {serviceOpen && (
               <ul className="mt-2 w-full bg-gray-700 shadow-lg">
-                  <li className="px-4 py-2 font-ubuntu text-white hover:cursor-pointer hover:bg-slate-700"> <a href="/become-a-member">Become a Member</a></li>
-                  <li className="px-4 py-2 font-ubuntu text-white hover:cursor-pointer hover:bg-slate-700"> <a href="/Membership-routes">Membership Categories</a></li>
-                  <li className="px-4 py-2 font-ubuntu text-white hover:cursor-pointer hover:bg-slate-700"> <a href="/member-upgrade">Membership Upgardes</a></li>
+                  <li className="px-4 py-2 font-ubuntu text-white hover:cursor-pointer hover:bg-slate-700"> <Link to="/become-a-member">Become a Member</Link></li>
+                  <li className="px-4 py-2 font-ubuntu text-white hover:cursor-pointer hover:bg-slate-700"> <Link to="/Membership-routes">Membership Categories</Link></li>
+                  <li className="px-4 py-2 font-ubuntu text-white hover:cursor-pointer hover:bg-slate-700"> <Link to="/member-upgrade">Membership Upgardes</Link></li>
               </ul>
             )}
           </li>
@@ -257,10 +259,10 @@ const Navbar = () => {
             
             {aboutusOpen && (
               <ul className="mt-2 w-full bg-gray-700 shadow-lg">
-                  <li className="px-4 py-2 font-ubuntu text-white hover:cursor-pointer hover:bg-slate-700"> <a href="/whoweare">Who we are</a></li>
-                  <li className="px-4 py-2 font-ubuntu text-white hover:cursor-pointer hover:bg-slate-700"> <a href="/our-people">Our People</a></li>
-                  <li className="px-4 py-2 font-ubuntu text-white hover:cursor-pointer hover:bg-slate-700"> <a href="/code-of-conduct">Code of Conduct</a></li>
-                  <li className="px-4 py-2 font-ubuntu text-white hover:cursor-pointer hover:bg-slate-700"> <a href="/our-offices">State Branches</a></li>
+                  <li className="px-4 py-2 font-ubuntu text-white hover:cursor-pointer hover:bg-slate-700"> <Link to="/whoweare">Who we are</Link></li>
+                  <li className="px-4 py-2 font-ubuntu text-white hover:cursor-pointer hover:bg-slate-700"> <Link to="/our-people">Our People</Link></li>
+                  <li className="px-4 py-2 font-ubuntu text-white hover:cursor-pointer hover:bg-slate-700"> <Link to="/code-of-conduct">Code of Conduct</Link></li>
+                  <li className="px-4 py-2 font-ubuntu text-white hover:cursor-pointer hover:bg-slate-700"> <Link to="/our-offices">State Branches</Link></li>
               </ul>
             )}
           </li>
@@ -275,13 +277,13 @@ const Navbar = () => {
             
             {newsOpen && (
               <ul className="mt-2 w-full bg-gray-700 shadow-lg">
-                  <li className="px-4 py-2 font-ubuntu text-white hover:cursor-pointer hover:bg-slate-700"> <a href="/news">News & Updates</a></li>
-                  <li className="px-4 py-2 font-ubuntu text-white hover:cursor-pointer hover:bg-slate-700"> <a href="/Events">Events & Conferences</a></li>
-                  <li className="px-4 py-2 font-ubuntu text-white hover:cursor-pointer hover:bg-slate-700"> <a href="/updates">Event Updates</a></li>
+                  <li className="px-4 py-2 font-ubuntu text-white hover:cursor-pointer hover:bg-slate-700"> <Link to="/news">News & Updates</Link></li>
+                  <li className="px-4 py-2 font-ubuntu text-white hover:cursor-pointer hover:bg-slate-700"> <Link to="/Events">Events & Conferences</Link></li>
+                  <li className="px-4 py-2 font-ubuntu text-white hover:cursor-pointer hover:bg-slate-700"> <Link to="/updates">Event Updates</Link></li>
               </ul>
             )}
           </li>
-          <li className=" text-white text-lg">  <a href="/Training">Training & Certifications</a> </li> <br />
+          <li className=" text-white text-lg">  <Link to="/Training">Training & Certifications</Link> </li> <br />
           <li className="text-white text-lg relative">
           <div className='flex flex-row gap-1 items-center cursor-pointer'
           onClick={servicestoggleSubmenu}>
@@ -293,14 +295,14 @@ const Navbar = () => {
             
             {servicesOpen && (
               <ul className="mt-2 w-full bg-gray-700 shadow-lg">
-                  <li className="px-4 py-2 font-ubuntu text-white hover:cursor-pointer hover:bg-slate-700"> <a href="/consultancy">Consultancy</a></li>
-                  <li className="px-4 py-2 font-ubuntu text-white hover:cursor-pointer hover:bg-slate-700"> <a href="/research">Research</a></li>
-                  <li className="px-4 py-2 font-ubuntu text-white hover:cursor-pointer hover:bg-slate-700"> <a href="/updates">Event Updates</a></li>
+                  <li className="px-4 py-2 font-ubuntu text-white hover:cursor-pointer hover:bg-slate-700"> <Link to="/consultancy">Consultancy</Link></li>
+                  <li className="px-4 py-2 font-ubuntu text-white hover:cursor-pointer hover:bg-slate-700"> <Link to="/research">Research</Link></li>
+                  <li className="px-4 py-2 font-ubuntu text-white hover:cursor-pointer hover:bg-slate-700"> <Link to="/updates">Event Updates</Link></li>
               </ul>
             )}
           </li>
-          <li className="text-white text-lg">  <a href="/gallery">Gallery</a> </li>
-          {/* <li className="text-white text-lg">  <a href="">Contact Us</a> </li> */}
+          <li className="text-white text-lg">  <Link to="/gallery">Gallery</Link> </li>
+          {/* <li className="text-white text-lg">  <Link to="">Contact Us</Link> </li> */}
         </ul>
       </div>
     </nav>

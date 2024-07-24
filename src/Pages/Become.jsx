@@ -1,6 +1,6 @@
 import React from 'react'
 import CIPDM_membership from '../assets/PDFs/CIPDM_membership.pdf'
-
+import { Link } from 'react-router-dom';
 const BecomeMember = () => {
   return (
     <>
@@ -124,7 +124,7 @@ const BecomeMember = () => {
       <strong>Step Three </strong>: Contact the phone number provider in the form for clarity 
       </p>
       <p className='text-black/90 text-semibold text-[18px] font-ptserif'>
-      <strong>Step Four </strong>: See the <a className='hover:text-black font-ptserif text-purple-600' href="/Membership-routes"> membership category page</a> for more information on each membership available 
+      <strong>Step Four </strong>: See the <Link className='hover:text-black font-ptserif text-purple-600' to="/Membership-routes"> membership category page</Link> for more information on each membership available 
       </p>
       <p className='text-black/90 text-semibold text-[18px] font-ptserif'>
       <strong>Step Five </strong>:  Submit the filled form to Membership@cipdm.com.ng
@@ -135,7 +135,7 @@ const BecomeMember = () => {
       </p>
       </div>
       <div className='items-center'>
-      <a className='hover:text-black font-ptserif text-purple-600 ' href={CIPDM_membership} download='Cipdm Membership form'>Download Memeberhsip form</a>
+      <Link className='hover:text-black font-ptserif text-purple-600 ' href={CIPDM_membership} download='Cipdm Membership form'>Download Memeberhsip form</Link>
       </div>
     </section>
     </>

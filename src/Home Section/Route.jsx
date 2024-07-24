@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom';
 
 const Route = () => {
   return (
@@ -9,11 +10,11 @@ const Route = () => {
             Membership Category
             </h2>
             <div className='flex flex-col gap-4'>
-            <a className='lg:text-[28px] text-[16px] text-slate-600 font-montserrat hover:text-cipdm-0/60 font-bold' href="">Graduate Membership</a>  
-            <a className='lg:text-[28px] text-[16px] text-slate-600 font-montserrat hover:text-cipdm-0/60  font-bold' href="">Associate Membership</a>
-            <a className='lg:text-[28px] text-[16px] text-slate-600 font-montserrat hover:text-cipdm-0/60  font-bold' href="">Full Mmebership</a>
-            <a className='lg:text-[28px] text-[16px] text-slate-600 font-montserrat hover:text-cipdm-0/60  font-bold' href="">Senior Membership</a>
-            <a className='lg:text-[28px] text-[16px] text-slate-600 font-montserrat hover:text-cipdm-0/60  font-bold' href="">Corporate Membership</a>
+            <Link className='lg:text-[28px] text-[16px] text-slate-600 font-montserrat hover:text-cipdm-0/60 font-bold' href="">Graduate Membership</Link>  
+            <Link className='lg:text-[28px] text-[16px] text-slate-600 font-montserrat hover:text-cipdm-0/60  font-bold' href="">Associate Membership</Link>
+            <Link className='lg:text-[28px] text-[16px] text-slate-600 font-montserrat hover:text-cipdm-0/60  font-bold' href="">Full Mmebership</Link>
+            <Link className='lg:text-[28px] text-[16px] text-slate-600 font-montserrat hover:text-cipdm-0/60  font-bold' href="">Senior Membership</Link>
+            <Link className='lg:text-[28px] text-[16px] text-slate-600 font-montserrat hover:text-cipdm-0/60  font-bold' href="">Corporate Membership</Link>
             
             </div>
         </div>
@@ -39,9 +40,9 @@ const Route = () => {
             <h3 className='text-2xl font-montserrat text-slate-700 pt-4 md:pt-20'>  
               Quick Links 
             </h3>
-            <a className='text-gray-800 underline hover:text-slate-900 hover:animate-shake' href="">Entry Requiremnts </a> <br />
+            <Link className='text-gray-800 underline hover:text-slate-900 hover:animate-shake' href="">Entry Requiremnts </Link> <br />
 
-            <a className='text-gray-800 underline hover:text-slate-900 hover:animate-shake' href="">Training Guildlines</a>
+            <Link className='text-gray-800 underline hover:text-slate-900 hover:animate-shake' href="">Training Guildlines</Link>
             </div>
         </div>
 

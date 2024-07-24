@@ -7,6 +7,7 @@ import Abj from '../assets/images/Abj.jpeg'
 import AJS from '../assets/images/AJS.jpeg'
 import Sco from '../assets/images/Sco.jpeg'
 import Cipdm from '../assets/images/Cipdm.jpeg'
+import { Link } from 'react-router-dom';
 
 
 const News = ({ishome}) => {
@@ -27,7 +28,7 @@ const News = ({ishome}) => {
                 <img className="w-full h-50 object-cover" src={hero} alt="Card Image"/>
                 <div className="p-4">
                     <div className='border-b pb-8 pt-3'>
-                    <a className='font-mono text-black/80 text-xl hover:text-slate-500 font-semibold leading-normal ' href=""> 2024 UK Conference </a>
+                    <Link className='font-mono text-black/80 text-xl hover:text-slate-500 font-semibold leading-normal ' href=""> 2024 UK Conference </Link>
                     </div>
                     <p className="text-gray-600">July 21st 2024</p>
                 </div>
@@ -37,7 +38,7 @@ const News = ({ishome}) => {
                 <img className="w-full h-50 object-cover" src={News5} alt="Card Image"/>
                 <div className="p-4">
                 <div className='border-b pb-8 pt-3'>
-                <a className='font-mono text-black/80 text-xl hover:text-slate-500 font-semibold leading-normal ' href=""> 2024 Induction </a>
+                <Link className='font-mono text-black/80 text-xl hover:text-slate-500 font-semibold leading-normal ' href=""> 2024 Induction </Link>
                 </div>
                     <p className="text-gray-600">July 21st 2024</p>
                 </div>
@@ -47,7 +48,7 @@ const News = ({ishome}) => {
                 <img className="w-full h-50 object-cover" src={Abj} alt="Card Image"/>
                 <div className="p-4">
                 <div className='border-b pb-8 pt-3'>
-                <a className='font-mono text-black/80 text-xl hover:text-slate-500 font-semibold leading-normal ' href=""> 2024 Induction </a>
+                <Link className='font-mono text-black/80 text-xl hover:text-slate-500 font-semibold leading-normal ' href=""> 2024 Induction </Link>
                 </div>
                     <p className="text-gray-600">July 21st 2024</p>
                 </div>
@@ -57,7 +58,7 @@ const News = ({ishome}) => {
                 <img className="w-full h-50 object-cover" src={Abj} alt="Card Image"/>
                 <div className="p-4">
                 <div className='border-b pb-8 pt-3'>
-                <a className='font-mono text-black/80 text-xl hover:text-slate-500 font-semibold leading-normal ' href=""> 2024 Induction </a>
+                <Link className='font-mono text-black/80 text-xl hover:text-slate-500 font-semibold leading-normal ' href=""> 2024 Induction </Link>
                 </div>
                     <p className="text-gray-600">July 21st 2024</p>
                 </div>
@@ -66,7 +67,7 @@ const News = ({ishome}) => {
                 <img className="w-full h-50 object-cover" src={Sco} alt="Card Image"/>
                 <div className="p-4">
                 <div className='border-b pb-8 pt-3'>
-                <a className='font-mono text-black/80 text-xl hover:text-slate-500 font-semibold leading-normal ' href=""> 2024 Induction </a>
+                <Link className='font-mono text-black/80 text-xl hover:text-slate-500 font-semibold leading-normal ' href=""> 2024 Induction </Link>
                 </div>
                     <p className="text-gray-600">July 21st 2024</p>
                 </div>
@@ -75,7 +76,7 @@ const News = ({ishome}) => {
                 <img className="w-full h-50 object-cover" src={Cipdm} alt="Card Image"/>
                 <div className="p-4">
                 <div className='border-b pb-8 pt-3'>
-                <a className='font-mono text-black/80 text-xl hover:text-slate-500 font-semibold leading-normal ' href=""> 2024 Induction </a>
+                <Link className='font-mono text-black/80 text-xl hover:text-slate-500 font-semibold leading-normal ' href=""> 2024 Induction </Link>
                 </div>
                     <p className="text-gray-600">July 21st 2024</p>
                 </div>
@@ -83,9 +84,9 @@ const News = ({ishome}) => {
         </div>
     </div>
     <div className= {`flex flex-row items-center gap-1 md:pt-16 pt-10 ${ishome?`hidden` : `block`}`}>
-        <a className="font-semibold text-black text-base hover:text-slate-600"href="">
+        <Link className="font-semibold text-black text-base hover:text-slate-600"href="">
         Click Here for more updates
-        </a>   
+        </Link>   
         <FaArrowRight className='font-semibold text-base hover:text-slate-600' />
     </div>
     </>

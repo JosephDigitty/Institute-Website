@@ -1,5 +1,6 @@
 import React from 'react'
 import ArticleOne from '../assets/PDFs/ArticleOne.pdf'
+import { Link } from 'react-router-dom';
 
 const Articleone = () => {
   return (
@@ -88,7 +89,7 @@ const Articleone = () => {
             </p>
         </div>
         <div className='py-5  '>
-        <a className='hover:text-black  font-ptserif text-purple-600 ' href={ArticleOne} download="Diplomatic_Practices_for_Organisational_and_National_Economic_Sustainability_DS_-"> Downlaod Full Article</a>
+        <Link className='hover:text-black  font-ptserif text-purple-600 ' href={ArticleOne} download="Diplomatic_Practices_for_Organisational_and_National_Economic_Sustainability_DS_-"> Downlaod Full Article</Link>
 
         </div>
     </div>

@@ -1,5 +1,6 @@
 import React from 'react'
 import { FaFacebookF } from "react-icons/fa6";
+import { Link } from 'react-router-dom';
 
 const Footer2 = () => {
   return (
@@ -35,22 +36,22 @@ const Footer2 = () => {
                 </p>
                 <ul >
                     <li>
-                        <a className='text-white' href="">Home</a>
+                        <Link className='text-white' href="">Home</Link>
                     </li>
                     <li>
-                        <a className='text-white' href="">Who we are</a>
+                        <Link className='text-white' href="">Who we are</Link>
                     </li>
                     <li>
-                        <a className='text-white'  href="">Our Services</a>
+                        <Link className='text-white'  href="">Our Services</Link>
                     </li>
                     <li>
-                        <a className='text-white' href="">Latest Updates</a>
+                        <Link className='text-white' href="">Latest Updates</Link>
                     </li>
                     <li>
-                        <a className='text-white' href="">Join us today</a>
+                        <Link className='text-white' href="">Join us today</Link>
                     </li>
                     <li>
-                        <a className='text-white' href="">Send up a message</a>
+                        <Link className='text-white' href="">Send up a message</Link>
                     </li>
                 </ul>
             </div>
@@ -61,7 +62,7 @@ const Footer2 = () => {
             </p>
         </div>
         <div className='flex justify-center'>
-             <a className='underline animate-bounce text-white/40 mt-7 text-thin tex-sm ' href="">Developed by Digitty</a>
+             <Link className='underline animate-bounce text-white/40 mt-7 text-thin tex-sm ' href="">Developed by Digitty</Link>
         </div>
     </div>
     </>

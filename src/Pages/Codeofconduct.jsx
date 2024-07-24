@@ -1,5 +1,6 @@
 import React from 'react'
-import resilience from '../assets/images/resilience.jpg'
+
+
 
 const Codeofconduct = () => {
   return (
