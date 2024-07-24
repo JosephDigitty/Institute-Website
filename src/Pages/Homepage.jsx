@@ -9,8 +9,14 @@ import Become from '../Home Section/Become'
 import Footer1 from '../Home Section/Footer1'
 import Footer2 from '../Home Section/Footer2'
 import Navbar from '../Component/Nav'
+import { Helmet } from 'react-helmet-async'
+
 
 const Homepage = () => {
+  <Helmet>
+  <title>Chartered Institute of Public Diplomacy Management</title>
+  <meta name="description" content="" />
+</Helmet>
   return (
     <> 
     

@@ -206,7 +206,6 @@ const Navbar = () => {
                 <ul>
                   <li className="px-4 py-2 font-ubuntu text-white hover:cursor-pointer hover:bg-slate-700"> <Link to="/consultancy">Consultancy</Link></li>
                   <li className="px-4 py-2 font-ubuntu text-white hover:cursor-pointer hover:bg-slate-700"> <Link to="/research">Research</Link></li>
-                  
                 </ul>
               </div>
             )}
@@ -242,9 +241,9 @@ const Navbar = () => {
             
             {serviceOpen && (
               <ul className="mt-2 w-full bg-gray-700 shadow-lg">
-                  <li className="px-4 py-2 font-ubuntu text-white hover:cursor-pointer hover:bg-slate-700"> <Link to="/become-a-member">Become a Member</Link></li>
-                  <li className="px-4 py-2 font-ubuntu text-white hover:cursor-pointer hover:bg-slate-700"> <Link to="/Membership-routes">Membership Categories</Link></li>
-                  <li className="px-4 py-2 font-ubuntu text-white hover:cursor-pointer hover:bg-slate-700"> <Link to="/member-upgrade">Membership Upgardes</Link></li>
+                  <li className="px-4 py-2 font-ubuntu text-white hover:cursor-pointer hover:bg-slate-700"> <Link onClick={toggleMobileMenu} to="/become-a-member">Become a Member</Link></li>
+                  <li className="px-4 py-2 font-ubuntu text-white hover:cursor-pointer hover:bg-slate-700"> <Link onClick={toggleMobileMenu} to="/Membership-routes">Membership Categories</Link></li>
+                  <li className="px-4 py-2 font-ubuntu text-white hover:cursor-pointer hover:bg-slate-700"> <Link onClick={toggleMobileMenu} to="/member-upgrade">Membership Upgardes</Link></li>
               </ul>
             )}
           </li>
@@ -259,10 +258,10 @@ const Navbar = () => {
             
             {aboutusOpen && (
               <ul className="mt-2 w-full bg-gray-700 shadow-lg">
-                  <li className="px-4 py-2 font-ubuntu text-white hover:cursor-pointer hover:bg-slate-700"> <Link to="/whoweare">Who we are</Link></li>
-                  <li className="px-4 py-2 font-ubuntu text-white hover:cursor-pointer hover:bg-slate-700"> <Link to="/our-people">Our People</Link></li>
-                  <li className="px-4 py-2 font-ubuntu text-white hover:cursor-pointer hover:bg-slate-700"> <Link to="/code-of-conduct">Code of Conduct</Link></li>
-                  <li className="px-4 py-2 font-ubuntu text-white hover:cursor-pointer hover:bg-slate-700"> <Link to="/our-offices">State Branches</Link></li>
+                  <li className="px-4 py-2 font-ubuntu text-white hover:cursor-pointer hover:bg-slate-700"> <Link onClick={toggleMobileMenu} to="/whoweare">Who we are</Link></li>
+                  <li className="px-4 py-2 font-ubuntu text-white hover:cursor-pointer hover:bg-slate-700"> <Link onClick={toggleMobileMenu} to="/our-people">Our People</Link></li>
+                  <li className="px-4 py-2 font-ubuntu text-white hover:cursor-pointer hover:bg-slate-700"> <Link onClick={toggleMobileMenu} to="/code-of-conduct">Code of Conduct</Link></li>
+                  <li className="px-4 py-2 font-ubuntu text-white hover:cursor-pointer hover:bg-slate-700"> <Link onClick={toggleMobileMenu} to="/our-offices">State Branches</Link></li>
               </ul>
             )}
           </li>
@@ -277,9 +276,9 @@ const Navbar = () => {
             
             {newsOpen && (
               <ul className="mt-2 w-full bg-gray-700 shadow-lg">
-                  <li className="px-4 py-2 font-ubuntu text-white hover:cursor-pointer hover:bg-slate-700"> <Link to="/news">News & Updates</Link></li>
-                  <li className="px-4 py-2 font-ubuntu text-white hover:cursor-pointer hover:bg-slate-700"> <Link to="/Events">Events & Conferences</Link></li>
-                  <li className="px-4 py-2 font-ubuntu text-white hover:cursor-pointer hover:bg-slate-700"> <Link to="/updates">Event Updates</Link></li>
+                  <li className="px-4 py-2 font-ubuntu text-white hover:cursor-pointer hover:bg-slate-700"> <Link onClick={toggleMobileMenu} to="/news">News & Updates</Link></li>
+                  <li className="px-4 py-2 font-ubuntu text-white hover:cursor-pointer hover:bg-slate-700"> <Link onClick={toggleMobileMenu} to="/Events">Events & Conferences</Link></li>
+                  <li className="px-4 py-2 font-ubuntu text-white hover:cursor-pointer hover:bg-slate-700"> <Link onClick={toggleMobileMenu} to="/updates">Event Updates</Link></li>
               </ul>
             )}
           </li>
@@ -295,9 +294,9 @@ const Navbar = () => {
             
             {servicesOpen && (
               <ul className="mt-2 w-full bg-gray-700 shadow-lg">
-                  <li className="px-4 py-2 font-ubuntu text-white hover:cursor-pointer hover:bg-slate-700"> <Link to="/consultancy">Consultancy</Link></li>
-                  <li className="px-4 py-2 font-ubuntu text-white hover:cursor-pointer hover:bg-slate-700"> <Link to="/research">Research</Link></li>
-                  <li className="px-4 py-2 font-ubuntu text-white hover:cursor-pointer hover:bg-slate-700"> <Link to="/updates">Event Updates</Link></li>
+                  <li className="px-4 py-2 font-ubuntu text-white hover:cursor-pointer hover:bg-slate-700"> <Link onClick={toggleMobileMenu} to="/consultancy">Consultancy</Link></li>
+                  <li className="px-4 py-2 font-ubuntu text-white hover:cursor-pointer hover:bg-slate-700"> <Link onClick={toggleMobileMenu} to="/research">Research</Link></li>
+                  <li className="px-4 py-2 font-ubuntu text-white hover:cursor-pointer hover:bg-slate-700"> <Link onClick={toggleMobileMenu} to="/updates">Event Updates</Link></li>
               </ul>
             )}
           </li>

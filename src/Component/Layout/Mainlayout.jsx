@@ -3,8 +3,15 @@ import { Outlet } from 'react-router-dom'
 import Navbar from '../Nav'
 import Footer1 from '../../Home Section/Footer1'
 import Footer2 from '../../Home Section/Footer2'
+import { Helmet } from 'react-helmet-async'
+
+
 
 const Mainlayout = () => {
+  <Helmet>
+  <title>Chartered Institute of Public Diplomacy Management</title>
+  <meta name="description" content="" />
+</Helmet>
   return (
     <>
     <Navbar/>
