@@ -16,7 +16,7 @@ const Explore = () => {
             <div className='flex flex-col'>
                 <Link className='font-ptserif text-center font-bold py-3 text-gradient-M text-base lg:text-center lg:text-2xl' href="/become-a-member">Membership</Link>
                 <p className='font-ptserif text-center text-sm lg:text-[15px]  lg:leading-[30px]' >
-                    Membership in CIPDM distinguises professional and organisation as leaders in the field of public diplomacy and management
+                    Membership in CIPDM distinguishes  professional and organisation as leaders in the field of public diplomacy and management
                 </p>
             </div>
             </div>
@@ -24,7 +24,7 @@ const Explore = () => {
             <div className='flex flex-col'>
             <Link className='font-ptserif text-center font-bold py-3 text-gradient-M text-base lg:text-center lg:text-2xl' href="/Training">Training</Link>
                 <p className='font-ptserif text-center text-sm lg:text-[15px]  lg:leading-[30px]' >
-                    The institue of compreshesive training and certifications for all levels of management professionals
+                    The institute of compreshesive training and certifications for all levels of management professionals
                 </p>
             </div>
             </div>
@@ -40,7 +40,7 @@ const Explore = () => {
             <div className='flex flex-col'>
             <Link className='font-ptserif text-center font-bold py-3 text-base text-gradient-M lg:text-center lg:text-2xl' href="/consultancy">Consultancy</Link>
                 <p className='font-ptserif text-center text-sm lg:text-[15px]  lg:leading-[30px]' >
-                    Our special Consultancy Service provides pratical solutions to help organisations maximize the potential employees
+                    Our special Consultancy Service provides practical solutions to help organisations maximize the potential employees
                 </p>
             </div>
             </div>
@@ -51,7 +51,7 @@ const Explore = () => {
             <Link className='font-ptserif text-center font-bold py-3 text-gradient-M text-base lg:text-center lg:text-2xl' href="/news">Conferences</Link>
 
                 <p className='font-ptserif text-center text-sm lg:text-[15px]  lg:leading-[30px]' >
-                    The Institute Varrious Activites are tailoored towards adequately positioning our members to rise above the daunting challenges of an ever-changing global economy.
+                    The Institute Varrious Activites are tailored towards adequately positioning our members to rise above the daunting challenges of an ever-changing global economy.
                 </p>
             </div>
             </div>
