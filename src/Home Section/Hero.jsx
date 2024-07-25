@@ -15,7 +15,7 @@ const Hero = () => {
         <div className="text-center text-white">
           <h1 className="text-[28px] md:text-6xl font-bold leading-[35px] text-gradient-N font-Opensans">The premier <br className='md:hidden' />Institution for <br /> public diplomacy <br className='md:hidden' />practitioners</h1>
           <p className='text-sm md:text-xl pt-5 px-9 font-Opensans '>
-            Building a world of competent multi-faceted publi diplomatic leaders & managers
+            Building a world of competent multi-faceted public diplomatic leaders & managers
           </p>
           <div className='pt-24'>
           <Link className="mt-8 px-6 py-4 font-firma bg-slate-600 text-white font-bold rounded" to="/whoweare"> Learn More...</Link>
