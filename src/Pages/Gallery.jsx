@@ -16,6 +16,8 @@ import gal5 from '../assets/images/gal5.jpeg'
 import gal6 from '../assets/images/gal6.jpeg'
 import gal7 from '../assets/images/gal7.jpeg'
 import gal9 from '../assets/images/gal9.jpeg'
+// import Gal101 from '../assets/images/New Folder/Gal101.JPG'
+
 
 
 
