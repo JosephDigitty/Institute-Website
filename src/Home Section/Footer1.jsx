@@ -15,7 +15,7 @@ const Footer1 = () => {
                 <img className="w-full h-50 object-cover" src={Certification} alt="Card Image"/>
                 <div className="p-4">
                 <div className='border-b pb-8 pt-3'>
-                <Link className='font-mono text-black/80 text-xl hover:text-slate-500 font-semibold leading-normal ' href="/become-a-member">Become a Membership </Link>
+                <Link className='font-mono text-black/80 text-xl hover:text-slate-500 font-semibold leading-normal 'to="/become-a-member">Become a Membership </Link>
                 </div>
                     
                 </div>
@@ -24,7 +24,7 @@ const Footer1 = () => {
                 <img className="w-full h-50 object-cover" src={Training} alt="Card Image"/>
                 <div className="p-4">
                 <div className='border-b pb-8 pt-3'>
-                <Link className='font-mono text-black/80 text-xl hover:text-slate-500 font-semibold leading-normal ' href="/Training"> Training and Certificates </Link>
+                <Link className='font-mono text-black/80 text-xl hover:text-slate-500 font-semibold leading-normal ' to="/Training"> Training and Certificates </Link>
                 </div>
                     <p className="text-gray-600">Your Content Here</p>
                 </div>
@@ -33,7 +33,7 @@ const Footer1 = () => {
                 <img className="w-full h-50 object-cover" src={Constancy} alt="Card Image"/>
                 <div className="p-4">
                     <div className='border-b pb-8 pt-3'>
-                    <Link className='font-mono text-black/80 text-xl hover:text-slate-500 font-semibold leading-normal ' href="/research"> Research and Consultancy </Link>
+                    <Link className='font-mono text-black/80 text-xl hover:text-slate-500 font-semibold leading-normal ' to="/research"> Research and Consultancy </Link>
                     </div>
                    
                 </div>

@@ -14,10 +14,15 @@ const Footer2 = () => {
             </div>
             <div className=''>
                 <h3 className='text-white text-3xl text-sans fonn-semibold pb-3 '>
-                    Our Ofice
+                    Our Office
                 </h3>
-                <p className='text-white/80 text-[16px] leading-normal text-sans'>
-                169, Ikorodu Road, (1st floor) Awoyokun B/stop, Between Palmgroove and Onipanu B/stop
+                <p className='text-white/90 text-[16px] leading-normal text-sans'>
+               Lagos: 169, Ikorodu Road, (1st floor) Awoyokun B/stop, Between Palmgroove and Onipanu B/stop
+                </p>  
+                <br />
+                <p className='text-white/90 text-[16px] leading-normal text-sans'>
+                Abuja: Suit 101, National Council of women society Building (NCWA) by FCDA Area 11 Garki, Abuja 
+                
                 </p>  
             </div>
             <div>

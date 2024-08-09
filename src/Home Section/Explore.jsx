@@ -59,12 +59,10 @@ const Explore = () => {
             <div className='flex flex-col'>
             <Link className='font-ptserif text-center font-bold py-3 text-gradient-M text-base lg:text-center lg:text-2xl' href="/Articles">Knowledge</Link>
                 <p className='font-ptserif text-center text-sm lg:text-[15px]  lg:leading-[30px]'>
-                At  CIPDM, we are dedicated to empowering business leaders and 
-                managers with insightful and practical knowledge. Our carefully curated
-                articles cover a wide range of topics, from effective leadership strategies 
-                to the latest industry trends. </p>
+                At CIPDM, we empower business leaders with practical insights. 
+                Our curated articles cover everything from 
+                leadership strategies to the latest industry trends </p>
             </div>
-            
             </div>
             </div>
             </div>

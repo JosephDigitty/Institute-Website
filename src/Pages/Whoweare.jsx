@@ -95,34 +95,34 @@ const Whoweare = () => {
       </div>
     </div>
     <div className='md:px-[395px] px-10 bg-white  min-h-screen py-3 '>
-      <h3 className='pt-[40px]  text-slate-700 text-3xl font-semibold font-ptserif '>
+      <h3 className='md:pt-[40px] pt-[20px] text-slate-700 md:text-3xl text-2xl font-semibold font-ptserif '>
       Our objectives are to:
       </h3>
       <ul className=' py-10'>
-        <li className='font-Merriweather  leading-normal text-black py-3'>
+        <li className='font-Merriweather md:text-lg text-sm  leading-normal text-black py-3'>
         * Develop multi-faceted leaders and managers with a well-developed global mindset, strong entrepreneurial global business and 
         diplomacy skills, and a deep commitment to corporate governance and ethical conduct.
         </li>
-        <li className='font-Merriweather  leading-normal text-black py-3'>
+        <li className='font-Merriweather md:text-lg text-sm leading-normal text-black py-3'>
         * Provide training, development programs and consultations consistent with quality management practices. 
         </li>
-        <li className='font-Merriweather leading-normal text-black py-3'> 
+        <li className='font-Merriweather md:text-lg text-sm leading-normal text-black py-3'> 
         * Building estimable leaders, managers and executives with a global vision and strong managerial and leadership skills
         </li>
-        <li className='font-Merriweather  leading-normal text-black py-3'>
+        <li className='font-Merriweather md:text-lg text-sm leading-normal text-black py-3'>
         * Develop and create leadership studies that identify key aspect of management of human resources in public and private services
         </li>
-        <li className='font-Merriweather  leading-normal text-black py-3'>
+        <li className='font-Merriweather md:text-lg text-sm leading-normal text-black py-3'>
         * Promote public diplomacy and management in government and private sectors as a profession
         </li>
-        <li className='font-Merriweather  leading-normal text-black py-3'>
+        <li className='font-Merriweather md:text-lg text-sm leading-normal text-black py-3'>
         * Encourage fellowship and cooperation in public and private service
         </li>
-        <li className='font-Merriweather  leading-normal text-black py-3'>
+        <li className='font-Merriweather md:text-lg text-sm leading-normal text-black py-3'>
         * Provide opportunities for professional growth and development for practitioners and conducting research and investigation on 
         public management issues
         </li>
-        <li className='font-Merriweather  leading-normal text-black py-3'>
+        <li className='font-Merriweather md:text-lg text-sm leading-normal text-black py-3'>
         * Facilitate positive changes that improve the delivery of private, public and international relationship management services
         </li>
       </ul>

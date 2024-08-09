@@ -24,6 +24,8 @@ import ArticleTwo from './Pages/ArticleTwo'
 import ArticleThree from './Pages/ArticleThree'
 import Article from './Pages/updates'
 
+import States from './Pages/States'
+
 const router = createBrowserRouter(
   createRoutesFromElements(
     <Route path="/" element={<Mainlayout />} >
@@ -46,6 +48,7 @@ const router = createBrowserRouter(
     // <Route path='/Article-one' element={<Articleone />} />
     // <Route path='/Article-two' element={<ArticleTwo />} />
     // <Route path='/Article-three' element={<ArticleThree />} />
+    // <Route path='/state-cordinators' element={<States />} />
     </Route>
   ),
 )

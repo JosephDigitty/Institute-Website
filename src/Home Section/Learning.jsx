@@ -16,7 +16,7 @@ const Learning = () => {
                 <div className='flex flex-col lg:pt-10 pt-4 justify-start gap-2 lg:gap-5'>
                         <div>
                         <h2 className='text-white'>
-                            Managing Virtual Teams 
+                        International Workshop, Canada 
                         </h2>
                         </div>
                         <div className='flex gap-1 flex-col'>
@@ -28,7 +28,7 @@ const Learning = () => {
                                  </p>
                             </div>
                             <p className='text-white'>
-                                July 11 2024
+                            October 21st 2024
                             </p>
                             </div>
                             <div className='flex justify-start gap-8 flex-row'>
@@ -39,19 +39,19 @@ const Learning = () => {
                                  </p>
                             </div>
                             <p className='text-white'>
-                                July 11 2024
+                            October 25th 2024
                             </p>
                             </div>
                             <div className='flex justify-start items-center gap-2 flex-row'>
                             <FiMapPin  className='text-white'/>
                             <p className='text-white '>
-                            Location: 3 Lagos
+                            Location: Canada
                             </p>
                             </div>
                             <div className='flex justify-start items-center gap-2 flex-row'>
                             <IoIosPaperPlane  className='text-white'/>
                             <p className='text-white '>
-                            Duration: 3 months
+                            Duration: 3 days 
                             </p>
                             </div>
                             <div className='flex flex-row items-center pt-5 gap-2'>
@@ -65,7 +65,9 @@ const Learning = () => {
                 <div className='flex flex-col lg:pt-10 pt-4 justify-start gap-2 lg:gap-5'>
                         <div>
                         <h2 className='text-white'>
-                            Managing Virtual Teams 
+                        National Conference <br className='md:hidden' />
+                     ( Diplomacy & <br className='md:hidden' />
+                     Management Conference) 
                         </h2>
                         </div>
                         <div className='flex gap-1 flex-col'>
@@ -77,7 +79,7 @@ const Learning = () => {
                                  </p>
                             </div>
                             <p className='text-white'>
-                                July 11 2024
+                                Nov 7th 2024
                             </p>
                             </div>
                             <div className='flex justify-start gap-8 flex-row'>
@@ -88,19 +90,19 @@ const Learning = () => {
                                  </p>
                             </div>
                             <p className='text-white'>
-                                July 11 2024
+                                Nov 9th 2024
                             </p>
                             </div>
                             <div className='flex justify-start items-center gap-2 flex-row'>
                             <FiMapPin  className='text-white'/>
                             <p className='text-white '>
-                            Location: 3 Lagos
+                            Location: Abuja
                             </p>
                             </div>
                             <div className='flex justify-start items-center gap-2 flex-row'>
                             <IoIosPaperPlane  className='text-white'/>
                             <p className='text-white '>
-                            Duration: 3 months
+                            Duration: 3 Days
                             </p>
                             </div>
                             <div className='flex flex-row items-center pt-5 gap-2'>
@@ -114,7 +116,7 @@ const Learning = () => {
                 <div className='flex flex-col lg:pt-10 pt-4 justify-start gap-2 lg:gap-5'>
                         <div>
                         <h2 className='text-white'>
-                            Managing Virtual Teams 
+                            Training and Induction 
                         </h2>
                         </div>
                         <div className='flex gap-1 flex-col'>
@@ -126,7 +128,7 @@ const Learning = () => {
                                  </p>
                             </div>
                             <p className='text-white'>
-                                July 11 2024
+                            August 24th 2024
                             </p>
                             </div>
                             <div className='flex justify-start gap-8 flex-row'>
@@ -137,19 +139,19 @@ const Learning = () => {
                                  </p>
                             </div>
                             <p className='text-white'>
-                                July 11 2024
+                            August 24th 2024
                             </p>
                             </div>
                             <div className='flex justify-start items-center gap-2 flex-row'>
                             <FiMapPin  className='text-white'/>
                             <p className='text-white '>
-                            Location: 3 Lagos
+                            Location: Port Harcourt 
                             </p>
                             </div>
                             <div className='flex justify-start items-center gap-2 flex-row'>
                             <IoIosPaperPlane  className='text-white'/>
                             <p className='text-white '>
-                            Duration: 3 months
+                            Duration: 1 day
                             </p>
                             </div>
                             <div className='flex flex-row items-center pt-5 gap-2'>
@@ -163,7 +165,7 @@ const Learning = () => {
                 <div className='flex flex-col lg:pt-10 pt-4 justify-start gap-2 lg:gap-5'>
                         <div>
                         <h2 className='text-white'>
-                            Managing Virtual Teams 
+                        Training and Induction
                         </h2>
                         </div>
                         <div className='flex gap-1 flex-col'>
@@ -175,7 +177,7 @@ const Learning = () => {
                                  </p>
                             </div>
                             <p className='text-white'>
-                                July 11 2024
+                            December 14th 2024
                             </p>
                             </div>
                             <div className='flex justify-start gap-8 flex-row'>
@@ -186,19 +188,19 @@ const Learning = () => {
                                  </p>
                             </div>
                             <p className='text-white'>
-                                July 11 2024
+                            December 14th 2024
                             </p>
                             </div>
                             <div className='flex justify-start items-center gap-2 flex-row'>
                             <FiMapPin  className='text-white'/>
                             <p className='text-white '>
-                            Location: 3 Lagos
+                            Location: Lagos
                             </p>
                             </div>
                             <div className='flex justify-start items-center gap-2 flex-row'>
                             <IoIosPaperPlane  className='text-white'/>
                             <p className='text-white '>
-                            Duration: 3 months
+                            Duration: 1 day
                             </p>
                             </div>
                             <div className='flex flex-row items-center pt-5 gap-2'>

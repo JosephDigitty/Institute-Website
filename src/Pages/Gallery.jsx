@@ -16,7 +16,11 @@ import gal5 from '../assets/images/gal5.jpeg'
 import gal6 from '../assets/images/gal6.jpeg'
 import gal7 from '../assets/images/gal7.jpeg'
 import gal9 from '../assets/images/gal9.jpeg'
-// import Gal101 from '../assets/images/New Folder/Gal101.JPG'
+import Gal101 from '../assets/images/Gal101.jpg'
+import Gal102 from '../assets/images/Gal102.jpg'
+import Gal103 from '../assets/images/Gal103.jpg'
+import Gal104 from '../assets/images/Gal104.jpg'
+
 
 
 
@@ -28,7 +32,7 @@ const Gallery = () => {
         <div className="grid grid-cols-1 lg:grid-cols-3 gap-10">
             {/*  Card 1 */}
             <div className="bg-white shadow-md rounded-sm hover:opacity-90 hover:cursor-pointer overflow-hidden">
-                <img className="w-full h-50 object-cover" src={hero} alt="Card Image"/>
+                <img className="w-full h-50 object-cover" src={Gal101} alt="Card Image"/>
                 <div className="p-4">
                     <div className='border-b pb-8 pt-3'>
                     <a className='font-mono text-black/80 text-xl hover:text-slate-500 font-semibold leading-normal ' href=""> 2024 UK Conference </a>
@@ -58,7 +62,7 @@ const Gallery = () => {
             </div>
             {/* card 4 */}
             <div className="bg-white shadow-md rounded-sm hover:opacity-90 hover:cursor-pointer overflow-hidden">        
-                <img className="w-full h-50 object-cover" src={Abj} alt="Card Image"/>
+                <img className="w-full h-50 object-cover" src={Gal102} alt="Card Image"/>
                 <div className="p-4">
                 <div className='border-b pb-8 pt-3'>
                 <a className='font-mono text-black/80 text-xl hover:text-slate-500 font-semibold leading-normal ' href=""> 2024 Induction </a>
@@ -128,7 +132,7 @@ const Gallery = () => {
             </div>
             {/* card 11 */}
             <div className="bg-white shadow-md rounded-sm hover:opacity-90 hover:cursor-pointer overflow-hidden">        
-                <img className="w-full h-50 object-cover" src={gal4} alt="Card Image"/>
+                <img className="w-full h-50 object-cover" src={Gal103} alt="Card Image"/>
                 <div className="p-4">
                 <div className='border-b pb-8 pt-3'>
                 <a className='font-mono text-black/80 text-xl hover:text-slate-500 font-semibold leading-normal ' href=""> 2024 Induction </a>
@@ -148,7 +152,7 @@ const Gallery = () => {
             </div>
             {/* card 11 */}
             <div className="bg-white shadow-md rounded-sm hover:opacity-90 hover:cursor-pointer overflow-hidden">        
-                <img className="w-full h-50 object-cover" src={gal6} alt="Card Image"/>
+                <img className="w-full h-50 object-cover" src={Gal104} alt="Card Image"/>
                 <div className="p-4">
                 <div className='border-b pb-8 pt-3'>
                 <a className='font-mono text-black/80 text-xl hover:text-slate-500 font-semibold leading-normal ' href=""> 2024 Induction </a>

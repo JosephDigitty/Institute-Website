@@ -155,6 +155,7 @@ const Navbar = () => {
                   <li className="px-4 py-2 font-ubuntu text-white hover:cursor-pointer hover:bg-slate-700"> <Link to="/our-people">Our People</Link></li>
                   <li className="px-4 py-2 font-ubuntu text-white hover:cursor-pointer hover:bg-slate-700"> <Link to="/code-of-conduct">Code of Conduct</Link></li>
                   <li className="px-4 py-2 font-ubuntu text-white hover:cursor-pointer hover:bg-slate-700"> <Link to="/our-offices">State Branches</Link></li>
+                  <li className="px-4 py-2 font-ubuntu text-white hover:cursor-pointer hover:bg-slate-700"> <Link to="/state-cordinators">State Cordinators</Link></li>
                 </ul>
               </div>
             )}
@@ -212,7 +213,7 @@ const Navbar = () => {
                 <div className='absolute left-0 right-0 -top-6 hover:cursor-pointer h-6 bg-transparent'/>
                 <ul>
                   <li className="px-4 py-2 font-ubuntu text-white hover:cursor-pointer hover:bg-slate-700"> <Link to="/news">News & Updates</Link></li>
-                  <li className="px-4 py-2 font-ubuntu text-white hover:cursor-pointer hover:bg-slate-700"> <Link to="/Events">Events & Conferences</Link></li>
+                  {/* <li className="px-4 py-2 font-ubuntu text-white hover:cursor-pointer hover:bg-slate-700"> <Link to="/Events">Events & Conferences</Link></li> */}
                   <li className="px-4 py-2 font-ubuntu text-white hover:cursor-pointer hover:bg-slate-700"> <Link to="/Articles">Articles</Link></li>
                   
                 </ul>
@@ -263,7 +264,7 @@ const Navbar = () => {
             ✕
           </button>
         </div>
-        <ul className="flex flex-col items-center space-y-4 mt-10">
+        <ul className="flex flex-col px-28 items-start space-y-4 mt-10">
         <li className="text-white text-lg relative">
           <div className='flex flex-row gap-1 items-center cursor-pointer'
           onClick={aboutustoggleSubmenu}>
@@ -272,15 +273,17 @@ const Navbar = () => {
               </button>
               <IoMdArrowDropdown className='-top-5' />   
             </div>
-            
-            {aboutusOpen && (
-              <ul className="mt-2 w-full bg-gray-700 shadow-lg">
+              <ul
+              className={`mt-2 w-full   transition-all duration-1000 ease-in-out transform ${
+                aboutusOpen ? ' max-h-screen opacity-100' : 'max-h-0 opacity-0'
+              } overflow-hidden`}
+              >
                   <li className="px-4 py-2 font-ubuntu text-white hover:cursor-pointer hover:bg-slate-700"> <Link onClick={toggleMobileMenu} to="/whoweare">Who we are</Link></li>
                   <li className="px-4 py-2 font-ubuntu text-white hover:cursor-pointer hover:bg-slate-700"> <Link onClick={toggleMobileMenu} to="/our-people">Our People</Link></li>
                   <li className="px-4 py-2 font-ubuntu text-white hover:cursor-pointer hover:bg-slate-700"> <Link onClick={toggleMobileMenu} to="/code-of-conduct">Code of Conduct</Link></li>
                   <li className="px-4 py-2 font-ubuntu text-white hover:cursor-pointer hover:bg-slate-700"> <Link onClick={toggleMobileMenu} to="/our-offices">State Branches</Link></li>
+                  <li className="px-4 py-2 font-ubuntu text-white hover:cursor-pointer hover:bg-slate-700"> <Link onClick={toggleMobileMenu} to="/state-cordinators">State Cordinator</Link></li>
               </ul>
-            )}
           </li>
           <li className="text-white text-lg relative">
           <div className='flex flex-row gap-1 items-center cursor-pointer'
@@ -290,14 +293,15 @@ const Navbar = () => {
               </button>
               <IoMdArrowDropdown className='-top-5' />   
             </div>
-            
-            {serviceOpen && (
-              <ul className="mt-2 w-full bg-gray-700 shadow-lg">
+              <ul
+              className={`mt-2 w-full   transition-all duration-1000 ease-in-out transform ${
+                serviceOpen ? ' max-h-screen opacity-100' : 'max-h-0 opacity-0'
+              } overflow-hidden`}
+              >
                   <li className="px-4 py-2 font-ubuntu text-white hover:cursor-pointer hover:bg-slate-700"> <Link onClick={toggleMobileMenu} to="/become-a-member">Become a Member</Link></li>
                   <li className="px-4 py-2 font-ubuntu text-white hover:cursor-pointer hover:bg-slate-700"> <Link onClick={toggleMobileMenu} to="/Membership-routes">Membership Categories</Link></li>
                   <li className="px-4 py-2 font-ubuntu text-white hover:cursor-pointer hover:bg-slate-700"> <Link onClick={toggleMobileMenu} to="/member-upgrade">Membership Upgardes</Link></li>
               </ul>
-            )}
           </li>
           <li className=" text-white text-lg">  <Link  onClick={toggleMobileMenu} to="/Training">Training & Certifications</Link> </li>
           <li className="text-white text-lg relative">
@@ -308,14 +312,16 @@ const Navbar = () => {
               </button>
               <IoMdArrowDropdown className='-top-5' />   
             </div>
-            
-            {newsOpen && (
-              <ul className="mt-2 w-full bg-gray-700 shadow-lg">
+            <ul
+             className={`mt-2 w-full   transition-all duration-1000 ease-in-out transform ${
+            newsOpen ? ' max-h-screen opacity-100' : 'max-h-0 opacity-0'
+             } overflow-hidden`}
+          >
                   <li className="px-4 py-2 font-ubuntu text-white hover:cursor-pointer hover:bg-slate-700"> <Link onClick={toggleMobileMenu} to="/news">News & Updates</Link></li>
                   <li className="px-4 py-2 font-ubuntu text-white hover:cursor-pointer hover:bg-slate-700"> <Link onClick={toggleMobileMenu} to="/Events">Events & Conferences</Link></li>
                   <li className="px-4 py-2 font-ubuntu text-white hover:cursor-pointer hover:bg-slate-700"> <Link onClick={toggleMobileMenu} to="/Articles">Articles</Link></li>
-              </ul>
-            )}
+              </ul> 
+           
           </li>
           <li className="text-white text-lg relative">
           <div className='flex flex-row gap-1 items-center cursor-pointer'
@@ -325,13 +331,14 @@ const Navbar = () => {
               </button>
               <IoMdArrowDropdown className='-top-5' />   
             </div>
-            
-            {servicesOpen && (
-              <ul className="mt-2 w-full bg-gray-700 shadow-lg">
+             <ul
+              className={`mt-2 w-full   transition-all duration-1000 ease-in-out transform ${
+                servicesOpen ? ' max-h-screen opacity-100' : 'max-h-0 opacity-0'
+              } overflow-hidden`}
+             >
                   <li className="px-4 py-2 font-ubuntu text-white hover:cursor-pointer hover:bg-slate-700"> <Link onClick={toggleMobileMenu} to="/consultancy">Consultancy</Link></li>
                   <li className="px-4 py-2 font-ubuntu text-white hover:cursor-pointer hover:bg-slate-700"> <Link onClick={toggleMobileMenu} to="/research">Research</Link></li>
               </ul>
-            )}
           </li>
           <li className="text-white text-lg">  <Link  onClick={toggleMobileMenu} to="/gallery">Gallery</Link> </li>
           {/* <li className="text-white text-lg">  <Link to="">Contact Us</Link> </li> */}

@@ -8,6 +8,10 @@ import AJS from '../assets/images/AJS.jpeg'
 import Sco from '../assets/images/Sco.jpeg'
 import Cipdm from '../assets/images/Cipdm.jpeg'
 import { Link } from 'react-router-dom';
+import Gal102 from '../assets/images/Gal102.jpg'
+import flier from '../assets/images/flier.jpg'
+import Flier3 from '../assets/images/Flier3.jpg'
+import Flier2 from '../assets/images/Flier2.jpg'
 
 
 const News = ({ishome}) => {
@@ -25,17 +29,17 @@ const News = ({ishome}) => {
         <div className="grid grid-cols-1 lg:grid-cols-3 gap-10">
             {/*  Card 1 */}
             <div className="bg-white shadow-md rounded-sm hover:opacity-90 hover:cursor-pointer overflow-hidden">
-                <img className="w-full h-50 object-cover" src={hero} alt="Card Image"/>
+                <img className="w-full h-50 object-contain"  src={flier} alt="Card Image"/>
                 <div className="p-4">
                     <div className='border-b pb-8 pt-3'>
-                    <Link className='font-mono text-black/80 text-xl hover:text-slate-500 font-semibold leading-normal ' href=""> 2024 UK Conference </Link>
+                    <Link className='font-mono text-black/80 text-xl hover:text-slate-500 font-semibold leading-normal ' href=""> International Workshop, Canada </Link>
                     </div>
-                    <p className="text-gray-600">July 21st 2024</p>
+                    <p className="text-gray-600">October 21st 2024</p>
                 </div>
             </div>
             {/* card 2 */}
             <div className="bg-white shadow-md rounded-sm hover:opacity-90 hover:cursor-pointer overflow-hidden">        
-                <img className="w-full h-50 object-cover" src={News5} alt="Card Image"/>
+                <img className="w-full h-50 object-cover" src={Flier3} alt="Card Image"/>
                 <div className="p-4">
                 <div className='border-b pb-8 pt-3'>
                 <Link className='font-mono text-black/80 text-xl hover:text-slate-500 font-semibold leading-normal ' href=""> 2024 Induction </Link>
@@ -45,7 +49,7 @@ const News = ({ishome}) => {
             </div>
             {/* card 3 */}
             <div className="bg-white shadow-md rounded-sm hover:opacity-90 hover:cursor-pointer overflow-hidden">        
-                <img className="w-full h-50 object-cover" src={Abj} alt="Card Image"/>
+                <img className="w-full h-50 object-cover" src={Flier2} alt="Card Image"/>
                 <div className="p-4">
                 <div className='border-b pb-8 pt-3'>
                 <Link className='font-mono text-black/80 text-xl hover:text-slate-500 font-semibold leading-normal ' href=""> 2024 Induction </Link>
