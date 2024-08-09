@@ -264,7 +264,7 @@ const Navbar = () => {
             ✕
           </button>
         </div>
-        <ul className="flex flex-col px-28 items-start space-y-4 mt-10">
+        <ul className="flex flex-col px-24 items-start space-y-4 mt-10">
         <li className="text-white text-lg relative">
           <div className='flex flex-row gap-1 items-center cursor-pointer'
           onClick={aboutustoggleSubmenu}>
