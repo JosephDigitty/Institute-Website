@@ -318,7 +318,6 @@ const Navbar = () => {
              } overflow-hidden`}
           >
                   <li className="px-4 py-2 font-ubuntu text-white hover:cursor-pointer hover:bg-slate-700"> <Link onClick={toggleMobileMenu} to="/news">News & Updates</Link></li>
-                  <li className="px-4 py-2 font-ubuntu text-white hover:cursor-pointer hover:bg-slate-700"> <Link onClick={toggleMobileMenu} to="/Events">Events & Conferences</Link></li>
                   <li className="px-4 py-2 font-ubuntu text-white hover:cursor-pointer hover:bg-slate-700"> <Link onClick={toggleMobileMenu} to="/Articles">Articles</Link></li>
               </ul> 
            

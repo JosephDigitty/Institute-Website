@@ -42,7 +42,7 @@ const News = ({ishome}) => {
                 <img className="w-full h-50 object-cover" src={Flier3} alt="Card Image"/>
                 <div className="p-4">
                 <div className='border-b pb-8 pt-3'>
-                <Link className='font-mono text-black/80 text-xl hover:text-slate-500 font-semibold leading-normal ' href=""> 2024 Induction </Link>
+                <Link className='font-mono text-black/80 text-xl hover:text-slate-500 font-semibold leading-normal ' href=""> Edo state 2024 Training and Induction </Link>
                 </div>
                     <p className="text-gray-600">July 21st 2024</p>
                 </div>
@@ -52,7 +52,7 @@ const News = ({ishome}) => {
                 <img className="w-full h-50 object-cover" src={Flier2} alt="Card Image"/>
                 <div className="p-4">
                 <div className='border-b pb-8 pt-3'>
-                <Link className='font-mono text-black/80 text-xl hover:text-slate-500 font-semibold leading-normal ' href=""> 2024 Induction </Link>
+                <Link className='font-mono text-black/80 text-xl hover:text-slate-500 font-semibold leading-normal ' href=""> Kaduna state 2024 Training and Induction </Link>
                 </div>
                     <p className="text-gray-600">July 21st 2024</p>
                 </div>

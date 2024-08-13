@@ -28,7 +28,7 @@ import Gal104 from '../assets/images/Gal104.jpg'
 const Gallery = () => {
   return (
     <>
-    <div className="container mx-auto">
+    <div className="container px-10 md:px-28 ">
         <div className="grid grid-cols-1 lg:grid-cols-3 gap-10">
             {/*  Card 1 */}
             <div className="bg-white shadow-md rounded-sm hover:opacity-90 hover:cursor-pointer overflow-hidden">
