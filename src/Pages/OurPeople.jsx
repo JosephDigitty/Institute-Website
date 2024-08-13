@@ -20,7 +20,7 @@ const OurPeople = () => {
           <h2 className='py-10 md:text-3xl text-center sm:taxt-2xl text-xl font-ptserif text-slate-700 hover:text-zinc-700 font-semibold '>
             Our Govering council
           </h2>
-          <div className='grid lg:grid-cols-3 gap-10 py-8 md:grid-cols-2 px-16 grid-cols-1'>
+          <div className='grid lg:grid-cols-3 gap-10 py-8 md:grid-cols-2 md:px-16 px-8 grid-cols-1'>
             <div className='pt-4 px-3  bg-white/80 rounded-lg '>
               <img src={mike} alt="" className='w-full rounded-2xl h-80 object-contain' />
               <p className='italic text-sm font-ptserif pt-3 text-red-400 '>
