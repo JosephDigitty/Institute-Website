@@ -80,7 +80,7 @@ const Consultancy = () => {
        help them achieve caree advancement, and coach them to become effective and influential
        business leaders and management.
         </p>
-      <p className='font-Merriweather md:text-[15px]  text-[12px] leading-normal  py-7'>for more information please see our <Link className='text-purple-600 hover:text-black font-ubuntu' href="/">Conatact Page</Link> or send an Email ro info@cipdm.com.ng</p>
+      <p className='font-Merriweather md:text-[15px]  text-[12px] leading-normal  py-7'>for more information please see our <Link className='text-purple-600 hover:text-black font-ubuntu' href="/">Contact Page</Link> or send an Email to info@cipdm.com.ng</p>
 
         </section>
     

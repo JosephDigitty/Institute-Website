@@ -45,7 +45,7 @@ const Gallery = () => {
                 <img className="w-full h-50 object-cover" src={News5} alt="Card Image"/>
                 <div className="p-4">
                 <div className='border-b pb-8 pt-3'>
-                <a className='font-mono text-black/80 text-xl hover:text-slate-500 font-semibold leading-normal ' href=""> 2024 Induction </a>
+                <a className='font-mono text-black/80 text-xl hover:text-slate-500 font-semibold leading-normal ' href=""> National Conference 2023, Abuja </a>
                 </div>
                     
                 </div>
@@ -55,7 +55,7 @@ const Gallery = () => {
                 <img className="w-full h-50 object-cover" src={Abj} alt="Card Image"/>
                 <div className="p-4">
                 <div className='border-b pb-8 pt-3'>
-                <a className='font-mono text-black/80 text-xl hover:text-slate-500 font-semibold leading-normal ' href=""> 2024 Induction </a>
+                <a className='font-mono text-black/80 text-xl hover:text-slate-500 font-semibold leading-normal ' href=""> National Conference 2023, Abuja </a>
                 </div>
                     
                 </div>
@@ -85,7 +85,7 @@ const Gallery = () => {
                 <img className="w-full h-50 object-cover" src={Cipdm} alt="Card Image"/>
                 <div className="p-4">
                 <div className='border-b pb-8 pt-3'>
-                <a className='font-mono text-black/80 text-xl hover:text-slate-500 font-semibold leading-normal ' href=""> 2024 Induction </a>
+                <a className='font-mono text-black/80 text-xl hover:text-slate-500 font-semibold leading-normal ' href=""> National Conference 2023, Abuja </a>
                 </div>
                    
                 </div>
@@ -95,7 +95,7 @@ const Gallery = () => {
                 <img className="w-full h-50 object-cover" src={resilience} alt="Card Image"/>
                 <div className="p-4">
                 <div className='border-b pb-8 pt-3'>
-                <a className='font-mono text-black/80 text-xl hover:text-slate-500 font-semibold leading-normal ' href=""> 2024 Induction </a>
+                <a className='font-mono text-black/80 text-sm hover:text-slate-500 font-semibold leading-normal ' href=""> National President, Governing Council  presenting a certificate of fellowship to a new inductee </a>
                 </div>
                     
                 </div>
@@ -115,7 +115,7 @@ const Gallery = () => {
                 <img className="w-full h-50 object-cover" src={gal2} alt="Card Image"/>
                 <div className="p-4">
                 <div className='border-b pb-8 pt-3'>
-                <a className='font-mono text-black/80 text-xl hover:text-slate-500 font-semibold leading-normal ' href=""> 2024 Induction </a>
+                <a className='font-mono text-black/80 text-xl hover:text-slate-500 font-semibold leading-normal ' href=""> The staff & coordinators of the institute </a>
                 </div>
                     
                 </div>
@@ -165,7 +165,7 @@ const Gallery = () => {
                 <img className="w-full h-50 object-cover" src={gal7} alt="Card Image"/>
                 <div className="p-4">
                 <div className='border-b pb-8 pt-3'>
-                <a className='font-mono text-black/80 text-xl hover:text-slate-500 font-semibold leading-normal ' href=""> 2024 Induction </a>
+                <a className='font-mono text-black/80 text-sm hover:text-slate-500 font-semibold leading-normal ' href=""> Governing Council member , Associate Prof. Mustapha ( KWASU) left felicitates with a new fellows inductee </a>
                 </div>
                     
                 </div>
@@ -175,7 +175,7 @@ const Gallery = () => {
                 <img className="w-full h-50 object-cover" src={gal9} alt="Card Image"/>
                 <div className="p-4">
                 <div className='border-b pb-8 pt-3'>
-                <a className='font-mono text-black/80 text-xl hover:text-slate-500 font-semibold leading-normal ' href=""> 2024 Induction </a>
+                <a className='font-mono text-black/80 text-l hover:text-slate-500 font-semibold leading-normal ' href=""> the Executive Director, Stephen Odukoya( left) presenting Fellowship certificate to a member </a>
                 </div>
                     
                 </div>

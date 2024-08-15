@@ -21,7 +21,7 @@ const Research = () => {
         Cipdm Research advances the profession of diplomacy and management through oustanding research,
         and benchmarking, exploring issues that matters in diplomacy and management and the wider world
       </p>
-      <p className='font-Merriweather md:text-[15px]  text-[12px] leading-normal  py-7'>for more information please see our <Link className='text-purple-600 hover:text-black font-ubuntu' to="/">Conatact Page</Link> or send an Email ro info@cipdm.com.ng</p>
+      <p className='font-Merriweather md:text-[15px]  text-[12px] leading-normal  py-7'>for more information please see our <Link className='text-purple-600 hover:text-black font-ubuntu' to="/">Contact Page</Link> or send an Email to info@cipdm.com.ng</p>
       </section>
   )
 }

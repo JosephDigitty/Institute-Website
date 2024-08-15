@@ -56,7 +56,7 @@ const Trainings = () => {
         <br />
         Certified Professional Business Negotiator (CPBN)
       </p >
-       <p className='font-Merriweather md:text-[15px]  text-[12px] leading-normal  py-7'>for more information please see our <a className='text-purple-400 hover:text-black font-ubuntu' href="/">Conatact Page</a> or send an Email ro info@cipdm.com.ng 
+       <p className='font-Merriweather md:text-[15px]  text-[12px] leading-normal  py-7'>for more information please see our <a className='text-purple-400 hover:text-black font-ubuntu' href="/">Contact Page</a> or send an Email to info@cipdm.com.ng 
        </p>
       </section>
 

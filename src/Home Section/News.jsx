@@ -12,6 +12,7 @@ import Gal102 from '../assets/images/Gal102.jpg'
 import flier from '../assets/images/flier.jpg'
 import Flier3 from '../assets/images/Flier3.jpg'
 import Flier2 from '../assets/images/Flier2.jpg'
+import Flier_PH from '../assets/images/Flier_PH.jpg'
 
 
 const News = ({ishome}) => {
@@ -44,7 +45,7 @@ const News = ({ishome}) => {
                 <div className='border-b pb-8 pt-3'>
                 <Link className='font-mono text-black/80 text-xl hover:text-slate-500 font-semibold leading-normal ' href=""> Edo state 2024 Training and Induction </Link>
                 </div>
-                    <p className="text-gray-600">July 21st 2024</p>
+                    <p className="text-gray-600">October 12th 2024</p>
                 </div>
             </div>
             {/* card 3 */}
@@ -54,35 +55,35 @@ const News = ({ishome}) => {
                 <div className='border-b pb-8 pt-3'>
                 <Link className='font-mono text-black/80 text-xl hover:text-slate-500 font-semibold leading-normal ' href=""> Kaduna state 2024 Training and Induction </Link>
                 </div>
-                    <p className="text-gray-600">July 21st 2024</p>
+                    <p className="text-gray-600">Sept 7th 2024</p>
                 </div>
             </div>
             {/* card 4 */}
             <div className="bg-white shadow-md rounded-sm hover:opacity-90 hover:cursor-pointer overflow-hidden">        
-                <img className="w-full h-50 object-cover" src={Abj} alt="Card Image"/>
+                <img className="w-full h-50 object-cover" src={Flier_PH} alt="Card Image"/>
                 <div className="p-4">
                 <div className='border-b pb-8 pt-3'>
-                <Link className='font-mono text-black/80 text-xl hover:text-slate-500 font-semibold leading-normal ' href=""> 2024 Induction </Link>
+                <Link className='font-mono text-black/80 text-xl hover:text-slate-500 font-semibold leading-normal ' href=""> River state 2024 Training and Induction </Link>
                 </div>
-                    <p className="text-gray-600">July 21st 2024</p>
+                    <p className="text-gray-600">August 24th 2024</p>
                 </div>
             </div>
             <div className="bg-white shadow-md rounded-sm hover:opacity-90 hover:cursor-pointer overflow-hidden">        
-                <img className="w-full h-50 object-cover" src={Sco} alt="Card Image"/>
+                <img className="w-full h-50 object-cover" src={Flier2} alt="Card Image"/>
                 <div className="p-4">
                 <div className='border-b pb-8 pt-3'>
-                <Link className='font-mono text-black/80 text-xl hover:text-slate-500 font-semibold leading-normal ' href=""> 2024 Induction </Link>
+                <Link className='font-mono text-black/80 text-xl hover:text-slate-500 font-semibold leading-normal ' href=""> Lagos state 2024 Training and Induction </Link>
                 </div>
-                    <p className="text-gray-600">July 21st 2024</p>
+                    <p className="text-gray-600">December 14th 2024</p>
                 </div>
             </div>
             <div className="bg-white shadow-md rounded-sm hover:opacity-90 hover:cursor-pointer overflow-hidden">        
-                <img className="w-full h-50 object-cover" src={Cipdm} alt="Card Image"/>
+                <img className="w-full h-50 object-cover" src={Flier_PH} alt="Card Image"/>
                 <div className="p-4">
                 <div className='border-b pb-8 pt-3'>
-                <Link className='font-mono text-black/80 text-xl hover:text-slate-500 font-semibold leading-normal ' href=""> 2024 Induction </Link>
+                <Link className='font-mono text-black/80 text-xl hover:text-slate-500 font-semibold leading-normal ' href=""> Oyo State 2024 Training and Induction </Link>
                 </div>
-                    <p className="text-gray-600">July 21st 2024</p>
+                    <p className="text-gray-600">November 14th 2024</p>
                 </div>
             </div>
         </div>
