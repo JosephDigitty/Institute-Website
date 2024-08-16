@@ -1,7 +1,13 @@
 import React from 'react'
+import { Helmet } from 'react-helmet-async'
 
 const Upgrades = () => {
   return (
+    <> 
+    <Helmet>
+    <title>Membership Upgrades - CIPDM</title>
+    <meta name="description" content="Description of the Membership Upgrades" />
+    </Helmet>
     <section className='md:px-[395px] px-10 pb-6 bg-gray-200 py-3 '>
       <h2 className='text-sm font-ptserif text-slate-600 font-semibold py-4 '>
         Membership
@@ -30,6 +36,7 @@ const Upgrades = () => {
       4- A letter of Upgrade Approval will be issued if such member is qualified
       </p>
     </section>
+    </> 
   )
 }
 

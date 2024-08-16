@@ -26,7 +26,7 @@ const Footer1 = () => {
                 <div className='border-b pb-8 pt-3'>
                 <Link className='font-mono text-black/80 text-xl hover:text-slate-500 font-semibold leading-normal ' to="/Training"> Training and Certificates </Link>
                 </div>
-                    <p className="text-gray-600">Your Content Here</p>
+                    <p className="text-gray-600"></p>
                 </div>
             </div>
      <div className="bg-white shadow-md rounded-sm hover:opacity-90 hover:cursor-pointer overflow-hidden">

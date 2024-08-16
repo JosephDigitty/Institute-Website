@@ -3,10 +3,15 @@ import Customer from '../assets/images/Customer.jpg'
 import Teamworkk from '../assets/images/Teamworkk.jpg'
 import Integrity from '../assets/images/Integrity.jpg'
 import { Link } from 'react-router-dom';
+import { Helmet } from 'react-helmet-async';
 
 const Article = () => {
   return (
     <>
+    <Helmet>
+    <title>Our Articles - CIPDM</title>
+    <meta name="description" content="A page where we can find our Articles" />
+    </Helmet>
     <div className='px-20 md:px-[300px]' >
       <h3 className='text-slate-600 font-bold md:text-3xl text-xl font-Merriweather'>
         Our Articles
